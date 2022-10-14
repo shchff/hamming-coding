@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<htmL>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HAMMING CODING</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="shortcut icon" href="fav.ico" type="image/x-icon">
+</head>
+<body>
+   <div class="wrapper">
+		<header>
+			<div class="title">
+				<div class="title-main">
+					Created by Grigorii Shcherbakov
+				</div>
+				<div class="title-link">
+					<a href="https://github.com/shchff" target="_blank">My GitHub</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<h1>Hamming</h1>
+			<div class="funcs">
+				<div class="titles row">
+					<label>Message</label>
+					<label >Encoded</label>
+					<label>Decoded</label>
+				</div>
+				<div class="forms row">
+					<div class="row">
+						<input type='text' id='mes' maxlength='4' pattern="">
+					</div>
+					<div class="row">
+						<input type='text' id='enc' maxlength='7'>
+					</div>
+					<div class="row">
+						<input type='text' id='dec' maxlength='4'>
+					</div>
+				</div>
+				<div class="buttons row">
+					<input class="button" type='button' onclick='encode()' value='encode'>
+					<input class="button" type='button' onclick='decode()' value='decode'>
+					<input class="button" type="button" id = "err" value="">
+				</div>
+			</div>
+		</main>
+   </div>
+   <script src="js/main.js"></script>
+</body>
+</htmL>
